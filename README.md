@@ -1,5 +1,7 @@
 # Practice repo for reverse engineering
 
+Random note: on MacOS, it's not `main` but `entry0`.
+
 ## v1
 
 - strings
