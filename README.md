@@ -18,7 +18,9 @@ on osx you have to run radare2 with sudo to open with debug
 
 ## v3
 
-TODO
+- Loop in a loop
+- Basically the same logic to find the solution as v2 with a twist
+- There is an extra check
 
 ## v4
 
