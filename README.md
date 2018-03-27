@@ -3,15 +3,18 @@
 ## v1
 
 - strings
-- rabin2 (Radare2)
+- `rabin2 -z` (Radare2)
 
 ### v1b
 
-TODO
+on osx you have to run radare2 with sudo to open with debug
+
+- radare2: `db <address>` -> create a breakpoint
 
 ## v2
 
-TODO
+- `afvn local_18h something` -> rename variable `local_18` to `something`
+- `VV` -> visual mode can be helpful
 
 ## v3
 
