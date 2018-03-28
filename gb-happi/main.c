@@ -5,12 +5,12 @@
 int main(int argc, char **argv) {
   // volatile
   int i_am_bad;
-  char me_too[258];
+  char me_too[SIZE];
 
-  i_am_bad = 0xfa56;
+  i_am_bad = ORIGINAL;
   gets(me_too);
 
-  if(i_am_bad == 0xfb11) {
+  if(i_am_bad == EXPECTED) {
       printf("You did it!\n");
   } else {
       printf("Try again?\n");
