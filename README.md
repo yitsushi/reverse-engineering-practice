@@ -13,6 +13,20 @@ on osx you have to run radare2 with sudo to open with debug
 
 - radare2: `db <address>` -> create a breakpoint
 
+python help:
+
+```
+radare2 > aa
+radare2 > s entry0
+radare2 > pd
+radare2 > s section.4.__TEXT.__const
+radare2 > ps 0x14      ; verify
+radare2 > pcp 0x14
+
+python> # paste
+python> print("%s" % bytes([((x - 0xf0 + 256) % 256) for x in buf]).decode("utf-8"))
+```
+
 ## v2
 
 - `afvn local_18h something` -> rename variable `local_18` to `something`
